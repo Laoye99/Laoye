@@ -10,6 +10,7 @@ import Checkout from "./routes/checkout/checkout.component";
 
 import { useEffect } from "react";
 
+
 import { createUserDocumentFromAuth, onAuthStateChangedListener } from "./utils/firebase/firebase.utils";
  import { setCurrentUser } from "./store/user/user.action";
 
